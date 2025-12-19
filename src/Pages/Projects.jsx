@@ -51,8 +51,7 @@ export default function Projects() {
             />
           ))}
         </div>
-
-        {/* MODAL DETAIL */}
+        
         {selectedProject && (
           <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-6 z-50">
             <div className="bg-white p-8 rounded-3xl max-w-4xl w-full relative shadow-xl">
